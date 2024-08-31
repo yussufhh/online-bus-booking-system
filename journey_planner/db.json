@@ -1,0 +1,32 @@
+{
+  "bookings": [
+    {
+      "id": "ec30",
+      "trainType": "express",
+      "fromLocation": "wajir",
+      "toLocation": "garissa",
+      "date": "2024-07-29"
+    },
+    {
+      "id": "35d6",
+      "trainType": "express",
+      "fromLocation": "wajir",
+      "toLocation": "garissa",
+      "date": "2024-07-29"
+    },
+    {
+      "id": "91d0",
+      "trainType": "local",
+      "fromLocation": "garissa",
+      "toLocation": "nairobi",
+      "date": "2024-08-13"
+    },
+    {
+      "id": "a898",
+      "trainType": "local",
+      "fromLocation": "garissa",
+      "toLocation": "nairobi",
+      "date": "2024-08-13"
+    }
+  ]
+}

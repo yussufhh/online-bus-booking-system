@@ -5,7 +5,7 @@ const Travel = () => {
   return (
     <div className="travel-container">
       <h1>We Provide You An Ultimate Travel Experience</h1>
-      <p>Book Madaraka Express tickets from the comfort of your homes.</p>
+      <p>Book Journey_planner Express tickets from the comfort of your homes.</p>
       
       <div className="cards-wrapper">
         <div className="travel-card">

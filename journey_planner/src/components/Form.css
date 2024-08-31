@@ -1,32 +1,30 @@
-.container12 {
+.custom-container {
   background-color: rgba(136, 44, 55, 0.5); /* Increased transparency */
   padding: 10px;
   width: 100%;
   height: 250px; /* Set a fixed height for the form */
-  justify-content: center; /* Center the content horizontally */;
+  justify-content: center; /* Center the content horizontally */
   background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRKKVp35FlrOhFmxfR9cNTklnr5wX9eWQdtsiXPUSC_2U1tsT0f);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply; /* This will blend the image with the background color */
 }
 
-form {
+.custom-form {
   display: flex;
   align-items: center;
   gap: 10px; /* Add a gap between elements */
   box-sizing: border-box;
 }
 
-
-label {
+.custom-label {
   margin-right: 0; /* Remove extra margin */
   font-weight: bold;
-  
 }
 
-select,
-input[type="date"],
-button {
+.custom-select,
+.custom-input-date,
+.custom-button {
   width: 200px; /* Set a longer width */
   height: 40px; /* Set a taller height */
   padding: 10px;
@@ -35,32 +33,30 @@ button {
   margin-top: 50px;
 }
 
-button {
-  background-color:orangered;
+.custom-button {
+  background-color: orangered;
   color: white;
   border: none;
   cursor: pointer;
-  
 }
 
-button:hover {
- background-color: #ff9900;
+.custom-button:hover {
+  background-color: #ff9900;
 }
 
-.header-text {
+.custom-header-text {
   margin-right: auto;
-  color:#fff;
+  color: #fff;
   font-weight: 700;
   font-size: 25px;
   font-family: Arial, Helvetica;
-  margin-top:20px;
+  margin-top: 20px;
   margin-left: 10px;
-
 }
-.text-head{
+
+.custom-text-head {
   color: #fff;
   font-family: Arial, Helvetica;
   text-transform: uppercase;
   font-size: 11.68px;
 }
-

@@ -1,0 +1,92 @@
+#gallery {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff5624;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.station-image {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #555;
+}
+
+.carousel {
+    position: relative;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.carousel-slide {
+    display: none;
+    text-align: center;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-nav-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.carousel-nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-nav-btn[aria-label="Previous Slide"] {
+    left: 10px;
+}
+
+.carousel-nav-btn[aria-label="Next Slide"] {
+    right: 10px;
+}
