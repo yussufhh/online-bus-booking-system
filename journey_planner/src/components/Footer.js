@@ -55,7 +55,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <img src="/path-to-logo/kenya-railways-logo.png" alt="Kenya Railways Logo" className="footer-logo" />
+        <img src="https://images.pexels.com/photos/1224762/pexels-photo-1224762.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kenya Railways Logo" className="footer-logo" />
         <div className="social-icons">
           <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
           <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>

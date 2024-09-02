@@ -1,151 +1,100 @@
 {
-  "bookings": [
+  "bookedseats": [
     {
-      "id": "ec30",
-      "trainType": "express",
-      "fromLocation": "wajir",
-      "toLocation": "garissa",
-      "date": "2024-07-29"
-    },
-    {
-      "id": "35d6",
-      "trainType": "express",
-      "fromLocation": "wajir",
-      "toLocation": "garissa",
-      "date": "2024-07-29"
-    },
-    {
-      "id": "91d0",
+      "id": "7918",
       "trainType": "local",
-      "fromLocation": "garissa",
+      "fromLocation": "wajir",
       "toLocation": "nairobi",
-      "date": "2024-08-13"
+      "date": "2024-09-24",
+      "seatNumber": "12"
     },
     {
-      "id": "a898",
-      "trainType": "local",
-      "fromLocation": "garissa",
-      "toLocation": "nairobi",
-      "date": "2024-08-13"
-    },
-    {
-      "id": "f985",
+      "id": "9eab",
       "trainType": "express",
       "fromLocation": "mandera",
-      "toLocation": "garissa",
-      "date": "2024-07-29"
+      "toLocation": "nairobi",
+      "date": "2024-09-04",
+      "seatNumber": "8"
     },
     {
-      "id": "19db",
+      "id": "a093",
       "trainType": "express",
-      "fromLocation": "marsabit",
+      "fromLocation": "mandera",
+      "toLocation": "lamu",
+      "date": "2024-09-04",
+      "seatNumber": "3"
+    },
+    {
+      "id": "d887",
+      "trainType": "express",
+      "fromLocation": "kisumu",
+      "toLocation": "isiolo",
+      "date": "2024-09-18",
+      "seatNumber": "9"
+    },
+    {
+      "id": "c0c1",
+      "trainType": "express",
+      "fromLocation": "nairobi",
+      "toLocation": "isiolo",
+      "date": "2024-09-04",
+      "seatNumber": "5"
+    },
+    {
+      "id": "3aa4",
+      "trainType": "express",
+      "fromLocation": "lamu",
       "toLocation": "mombasa",
-      "date": "2024-07-30"
+      "date": "2024-09-11",
+      "seatNumber": "5"
     },
     {
-      "id": "6500",
-      "trainType": "express",
-      "fromLocation": "marsabit",
-      "toLocation": "mombasa",
-      "date": "2024-07-30"
-    },
-    {
-      "id": "4de4",
+      "id": "ada3",
       "trainType": "local",
-      "fromLocation": "garissa",
-      "toLocation": "nairobi",
-      "date": "2024-08-08"
-    },
-    {
-      "id": "12d3",
-      "trainType": "local",
-      "fromLocation": "garissa",
-      "toLocation": "nairobi",
-      "date": "2024-08-08"
-    },
-    {
-      "id": "38d5",
-      "trainType": "express",
-      "fromLocation": "wajir",
+      "fromLocation": "mombasa",
       "toLocation": "marsabit",
-      "date": "2024-08-05"
+      "date": "2024-09-09",
+      "seatNumber": "5"
     },
     {
-      "id": "5982",
+      "id": "e876",
+      "trainType": "local",
+      "fromLocation": "nairobi",
+      "toLocation": "mandera",
+      "date": "2024-09-09",
+      "seatNumber": "5"
+    },
+    {
+      "id": "9371",
       "trainType": "express",
-      "fromLocation": "wajir",
+      "fromLocation": "nairobi",
       "toLocation": "marsabit",
-      "date": "2024-08-05"
+      "date": "2024-09-04",
+      "seatNumber": "4"
     },
     {
-      "id": "2312",
-      "trainType": "sleeper",
-      "fromLocation": "wajir",
-      "toLocation": "garissa",
-      "date": "2024-08-08"
-    },
-    {
-      "id": "2b98",
-      "trainType": "sleeper",
-      "fromLocation": "wajir",
-      "toLocation": "garissa",
-      "date": "2024-08-08"
-    },
-    {
-      "id": "622d",
-      "trainType": "express",
-      "fromLocation": "wajir",
-      "toLocation": "nairobi",
-      "date": "2024-08-05"
-    },
-    {
-      "id": "78d0",
-      "trainType": "express",
-      "fromLocation": "wajir",
-      "toLocation": "nairobi",
-      "date": "2024-08-05"
-    },
-    {
-      "id": "28ce",
-      "trainType": "local",
-      "fromLocation": "garissa",
-      "toLocation": "wajir",
-      "date": "2024-08-05"
-    },
-    {
-      "id": "46cf",
-      "trainType": "local",
-      "fromLocation": "garissa",
-      "toLocation": "wajir",
-      "date": "2024-08-05"
-    },
-    {
-      "id": "30dd",
+      "id": "87ac",
       "trainType": "express",
       "fromLocation": "mandera",
       "toLocation": "nairobi",
-      "date": "2024-08-14"
+      "date": "2024-09-13",
+      "seatNumber": "9"
     },
     {
-      "id": "ec54",
+      "id": "fa1c",
+      "trainType": "express",
+      "fromLocation": "mandera",
+      "toLocation": "mandera",
+      "date": "2024-09-19",
+      "seatNumber": "2"
+    },
+    {
+      "id": "4512",
       "trainType": "express",
       "fromLocation": "mandera",
       "toLocation": "nairobi",
-      "date": "2024-08-14"
-    },
-    {
-      "id": "9e72",
-      "trainType": "local",
-      "fromLocation": "garissa",
-      "toLocation": "wajir",
-      "date": "2024-08-06"
-    },
-    {
-      "id": "9082",
-      "trainType": "local",
-      "fromLocation": "garissa",
-      "toLocation": "wajir",
-      "date": "2024-08-06"
+      "date": "2024-09-04",
+      "seatNumber": "6"
     }
   ]
 }

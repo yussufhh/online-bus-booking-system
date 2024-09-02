@@ -1,0 +1,70 @@
+.Abno1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem; /* Adjust spacing between the images and content */
+    padding: 50px;
+  }
+  
+  .images {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* Three images per row */
+    gap: 10px; /* Adjust spacing between images */
+    margin-right: 20px; /* Add space between images and content */
+  }
+  
+  .images img {
+    width: 90px; /* Set the images to a smaller width */
+    height: 100px; 
+    object-fit: cover;
+  }
+  
+  .contentt {
+    flex: 1;
+    line-height: 1.6; /* Adjust line height for better readability */
+    padding-left: 20px; /* Add padding to move content away from the edge */
+  }
+  
+  .ul-tack {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove padding from the list */
+    margin: 0; /* Remove margins to bring items closer */
+    line-height: 2; /* Adjust line height for better readability */
+  }
+  
+  .ul-tack li {
+    display: flex; /* Use flexbox to align number and text */
+    align-items: flex-start;
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  .ul-tack li::before {
+    content: counter(item, upper-roman) ". "; /* Roman numerals */
+    counter-increment: item; /* Increment counter */
+    margin-right: 5px; /* Small space between number and text */
+    /* Make the numbers bold */
+  }
+  
+  .ul-tack {
+    counter-reset: item;
+    padding-top: 20px; /* Initialize counter */
+  }
+  
+  .ul-tack li {
+    line-height: 1.6;
+  }
+  
+  .p-tack {
+    margin-top: -40px; /* Adjust this value to bring it closer to the content above */
+    padding: 0 20px 20px 20px; /* Adjust padding for consistency */
+    line-height: 1.6;
+  }
+  
+  .p-1 span {
+    font-weight: bold;
+  }
+  
+  .h2-tack {
+    color: rgb(77, 71, 71);
+    font-size: 20px; 
+    margin-right: 140px;
+  }

@@ -1,0 +1,55 @@
+core-values-container {
+    display: flex;
+    gap: 20px; /* Space between the two columns */
+    padding: 20px;
+  }
+  
+  .core-values-section,
+  .know-more-section {
+    flex: 1;
+     /* Border around each section */
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .accordion-item {
+    margin-bottom: 15px; /* Space between items */
+  }
+  
+  .accordion-title {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .accordion-content {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .toggle-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ff006a; /* Icon color */
+    margin-left: 5px; /* Adjust the space between icon and text */
+  }
+  
+  h3 {
+    text-align: center; /* Center the header */
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: red; 
+    text-align: start;/* Header color */
+  }
+  
+  .accordion-title .toggle-icon {
+    margin-right: 10px; /* Space between the icon and the title */
+  }
+  
+  .accordion-title {
+    justify-content: flex-start; /* Align title and icon closer */
+  }
+  
