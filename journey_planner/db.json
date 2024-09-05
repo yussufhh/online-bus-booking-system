@@ -95,6 +95,98 @@
       "toLocation": "nairobi",
       "date": "2024-09-04",
       "seatNumber": "6"
+    },
+    {
+      "id": "9aac",
+      "trainType": "local",
+      "fromLocation": "garissa",
+      "toLocation": "wajir",
+      "date": "2024-09-12",
+      "seatNumber": "2"
+    },
+    {
+      "id": "a5e9",
+      "trainType": "express",
+      "fromLocation": "mandera",
+      "toLocation": "nairobi",
+      "date": "2024-09-04",
+      "seatNumber": "2"
+    },
+    {
+      "id": "701b",
+      "trainType": "express",
+      "fromLocation": "mandera",
+      "toLocation": "wajir",
+      "date": "2024-09-05",
+      "seatNumber": "2"
+    },
+    {
+      "id": "1faa",
+      "trainType": "sleeper",
+      "fromLocation": "garissa",
+      "toLocation": "nairobi",
+      "date": "2024-09-26",
+      "seatNumber": "9"
+    },
+    {
+      "id": "3455",
+      "trainType": "local",
+      "fromLocation": "garissa",
+      "toLocation": "marsabit",
+      "date": "2024-09-04",
+      "seatNumber": "4"
+    },
+    {
+      "id": "f5b5",
+      "trainType": "express",
+      "fromLocation": "wajir",
+      "toLocation": "mandera",
+      "date": "2024-09-04",
+      "seatNumber": "3"
+    }
+  ],
+  "Users": [
+    {
+      "id": "6b64",
+      "name": "moon lover",
+      "email": "moonlover@gmail.com",
+      "message": "see us"
+    },
+    {
+      "id": "81c0",
+      "name": "Ramla Adan Ali",
+      "email": "ramlaali@gmail.com",
+      "message": "i really like the services offered by journey_planner express  thanks so much"
+    },
+    {
+      "id": "e335",
+      "name": "Amir",
+      "email": "amir@gmail.com",
+      "message": "nice company"
+    },
+    {
+      "id": "8e4b",
+      "name": "Rukia Hassan",
+      "email": "rukiahassan@gmail.com",
+      "message": "well company"
+    },
+    {
+      "id": "c1aa",
+      "name": "moon lover",
+      "email": "moonlover@gmail.com",
+      "message": "visited well"
+    },
+    {
+      "id": "ac88",
+      "name": "yuus",
+      "email": "yuus@gmail.com",
+      "message": "swa"
+    },
+    {
+      "id": "b49f",
+      "name": "Adan Jelle",
+      "email": "adan@gmail.com",
+      "message": "need ur company"
     }
   ]
 }

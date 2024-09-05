@@ -56,3 +56,15 @@ h3 {
 .accordion-title {
   justify-content: flex-start; /* Align title and icon closer */
 }
+.toggle-icon {
+  font-size: 16px; /* Adjust the font size for better centering */
+  color: white; /* Text color inside the circle */
+  background-color: red; /* Background color for the circle */
+  width: 30px; /* Width and height for the circle */
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Make the shape circular */
+  margin-left: 5px;
+}

@@ -13,12 +13,13 @@ const Navbar = () => {
       
       <h3 className="nav--logo_text">Journey Planner Express</h3> 
       <div className="nav-items">
-      <NavLink exact to="/hero" className="nav--links" activeClassName="active">
-          Hero
+      <NavLink exact to="/users" className="nav--links" activeClassName="active">
+          Users
         </NavLink>
-      <NavLink exact to="/blog" className="nav--links" activeClassName="active">
-          Blog
+        <NavLink exact to="/login" className="nav--links" activeClassName="active">
+          Login
         </NavLink>
+      
         <NavLink exact to="/" className="nav--links" activeClassName="active">
           <span className="span-1">Book a Bus</span>
         </NavLink>
@@ -28,6 +29,9 @@ const Navbar = () => {
        
         <NavLink to="/about" className="nav--links" activeClassName="active">
           About us
+        </NavLink>
+        <NavLink to="/payment" className="nav--links" activeClassName="active">
+          Payment
         </NavLink>
         <NavLink to="/contact" className="nav--links" activeClassName="active">
           Contact

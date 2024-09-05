@@ -19,11 +19,11 @@ const Footer = () => {
           <div className="contact-info">
             <div className="contact-item">
               <i className="fas fa-phone"></i>
-              <p>0709 388 887 - Madaraka Express Passenger Service inquiries, complaints, lost & found.</p>
+              <p>0709 388 887 - Journey_planner Express Passenger Service inquiries, complaints, lost & found.</p>
             </div>
             <div className="contact-item">
               <i className="fas fa-phone"></i>
-              <p>0709 907 000, 0709 907 555 - Kenya Railways Headquarters customer care.</p>
+              <p>0709 907 000, 0709 907 555 - Kenya Bus Headquarters customer care.</p>
             </div>
             <div className="contact-item">
               <i className="fas fa-envelope"></i>

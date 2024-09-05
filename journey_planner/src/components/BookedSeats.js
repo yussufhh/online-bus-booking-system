@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Users from './Users';
 
 const BookedSeats = () => {
   const [bookings, setBookings] = useState([]);
@@ -25,6 +26,7 @@ const BookedSeats = () => {
   };
 
   return (
+    <div>
     <div className="container mx-auto p-6 bg-red-400 mt-5 mb-5">
       <h3 className="text-2xl font-bold mb-4 text-white">Booked Seats</h3>
       <div className="overflow-x-auto">
@@ -53,7 +55,11 @@ const BookedSeats = () => {
           </tbody>
         </table>
       </div>
+    
     </div>
+    <Users/>
+    </div>
+    
   );
 };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Stations.css';
+import Team from './Team';
 
 const Stations = () => {
   const images = [
@@ -46,6 +47,7 @@ const Stations = () => {
   ];
 
   return (
+    <>
     <div className="stations-container">
       <div className="stations-row">
         {images.slice(0, 4).map((image, index) => (
@@ -64,6 +66,9 @@ const Stations = () => {
         ))}
       </div>
     </div>
+    <Team/>
+    </>
+   
   );
 };
 

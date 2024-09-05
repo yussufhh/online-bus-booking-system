@@ -4,6 +4,7 @@ import Book from './Book';
 import Experience from './Experience';
 import Interested from './Interested';
 import Gallery from './Gallery';
+// import Hero from './/Hero';
 
 const Home = () => {
     return (
@@ -13,6 +14,8 @@ const Home = () => {
             <Travel />
             <Experience />
             <Interested />
+            {/* <Hero/> */}
+           
         </div>
     );
 };

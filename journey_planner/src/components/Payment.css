@@ -1,0 +1,106 @@
+/* Background section after the button */
+.background-section {
+    background-image: url('https://buupass.com/assets/img/pay_via.webp');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+  }
+  
+  /* Info sections styling */
+  .info-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px 0;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .info-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+  
+    max-width: 350px;
+  }
+  
+  .info-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  h3 {
+    margin: 0 0 5px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  p {
+    margin: 0 0 5px;
+    font-size: 0.85rem;
+    color: #666;
+  }
+  
+  /* Booking Information and Payment Details */
+  .booking-info {
+    padding: 15px;
+  
+    border-radius: 10px;
+    margin: 15px;
+  }
+  
+  .booking-info h3 {
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .booking-info p {
+    font-size: 0.9rem;
+    margin: 8px 0;
+    color: #555;
+  }
+  
+  /* m-Pesa Input Field */
+  .mpesa-label {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #ff0000;
+    margin-right: 1040px;
+  }
+  
+  .mpesa-input {
+    width: 50%;  /* Adjusted width */
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 880px;
+  }
+  
+  .mpesa-input::placeholder {
+    color: #999;
+  }
+  .infor{
+    width: 550px;
+    line-height: 26px;
+  }
+  .payment{
+    color:orangered;
+  }
+  .information{
+    color: #882C37;
+  }
+  .number{
+    margin-right: 990px;
+    color: #882C37;
+  }

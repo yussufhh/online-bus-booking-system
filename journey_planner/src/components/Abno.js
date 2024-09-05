@@ -1,6 +1,7 @@
 import React from 'react';
 import './Abno.css';
 import Mission from '../components/Mission';
+import Destination from './Destination';
 
 function Abno() {
   return (
@@ -30,6 +31,7 @@ function Abno() {
       <p className='p-tack'>
         At Journey Planner Express, we are committed to making travel across Kenya as seamless as possible. Our platform is designed to provide comprehensive travel information, helping you make informed decisions and enjoy a smooth journey every time.
       </p>
+      <Destination/>
       <Mission />
     </>
   );
