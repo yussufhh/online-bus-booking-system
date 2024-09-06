@@ -143,6 +143,22 @@
       "toLocation": "mandera",
       "date": "2024-09-04",
       "seatNumber": "3"
+    },
+    {
+      "id": "5835",
+      "trainType": "express",
+      "fromLocation": "garissa",
+      "toLocation": "wajir",
+      "date": "2024-09-01",
+      "seatNumber": "1"
+    },
+    {
+      "id": "6dcf",
+      "trainType": "express",
+      "fromLocation": "mandera",
+      "toLocation": "nairobi",
+      "date": "2024-09-05",
+      "seatNumber": "5"
     }
   ],
   "Users": [
@@ -187,6 +203,30 @@
       "name": "Adan Jelle",
       "email": "adan@gmail.com",
       "message": "need ur company"
+    },
+    {
+      "id": "d8cc",
+      "name": "moon lover",
+      "email": "moonlover@gmail.com",
+      "message": "life is very easy"
+    },
+    {
+      "id": "882f",
+      "name": "samira",
+      "email": "samiraroble@gmail.com",
+      "message": "the company is very good"
+    },
+    {
+      "id": "8ddc",
+      "name": "Hassan Ali",
+      "email": "hassanali@gmail.com",
+      "message": "When do most buses leave the stations"
+    },
+    {
+      "id": "11ee",
+      "name": "Yussuf Hussein",
+      "email": "yussufhussein@gmail.com",
+      "message": "we are very glad to be part of this wonderful community of journey-planner express "
     }
   ]
 }

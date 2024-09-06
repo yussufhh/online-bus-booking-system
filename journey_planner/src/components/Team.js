@@ -1,4 +1,8 @@
 import React from 'react';
+import first from './images/member1.png';
+import second from './images/member2.png';
+import third from './images/member3.png';
+import fourth from './images/member4.png';
 
 const Team = () => {
   return (
@@ -16,47 +20,47 @@ const Team = () => {
         <div className="grid grid-cols-2 mt-8 text-center sm:mt-16 lg:mt-20 sm:grid-cols-4 gap-y-8 lg:grid-cols-9 gap-x-0">
           <div>
             <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-1.jpg"
-              alt="Jenny Wilson"
+              className="object-cover mx-auto rounded-lg w-28 h-28 transform transition duration-500 ease-in-out hover:scale-110 hover:rotate-3"
+              src={first}
+              alt="Mr Abdifatah Ibrahim"
             />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Jenny Wilson</p>
-            <p className="mt-1 text-base leading-tight text-gray-600">Founder</p>
+            <p className="mt-8 text-lg font-semibold leading-tight text-black">Mr Abdifatah Ibrahim</p>
+            <p className="mt-1 text-base leading-tight text-gray-600">Technical Mentor</p>
           </div>
 
           <div className="hidden lg:block"></div>
 
           <div>
             <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-2.jpg"
-              alt="Darrell Steward"
+              className="object-cover mx-auto rounded-lg w-28 h-28 transform transition duration-500 ease-in-out hover:scale-110 hover:rotate-8"
+              src={second}
+              alt="Adan Jelle"
             />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Darrell Steward</p>
-            <p className="mt-1 text-base leading-tight text-gray-600">CTO</p>
+            <p className="mt-8 text-lg font-semibold leading-tight text-black">Adan Jelle</p>
+            <p className="mt-1 text-base leading-tight text-gray-600">Project Manager</p>
           </div>
 
           <div className="hidden lg:block"></div>
 
           <div>
             <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-3.jpg"
-              alt="Bessie Cooper"
+              className="object-cover mx-auto rounded-lg w-28 h-28 transform transition duration-500 ease-in-out hover:scale-110 hover:rotate-1"
+              src={third}
+              alt="Moon Lover"
             />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Bessie Cooper</p>
-            <p className="mt-1 text-base leading-tight text-gray-600">CMO</p>
+            <p className="mt-8 text-lg font-semibold leading-tight text-black">Moon Lover</p>
+            <p className="mt-1 text-base leading-tight text-gray-600">UI/UX Designer</p>
           </div>
 
           <div className="hidden lg:block"></div>
 
           <div>
             <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-4.jpg"
-              alt="Arlene McCoy"
+              className="object-cover mx-auto rounded-lg w-28 h-28 transform transition duration-500 ease-in-out hover:scale-110 hover:rotate-3"
+              src={fourth}
+              alt="Mr Mohamed Hanif"
             />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Arlene McCoy</p>
+            <p className="mt-8 text-lg font-semibold leading-tight text-black">Mr Mohamed Hanif</p>
             <p className="mt-1 text-base leading-tight text-gray-600">Senior Developer</p>
           </div>
 
@@ -64,60 +68,12 @@ const Team = () => {
 
           <div>
             <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-5.jpg"
-              alt="Brooklyn Simmons"
+              className="object-cover mx-auto rounded-lg w-28 h-28 transform transition duration-500 ease-in-out hover:scale-110 hover:rotate-3"
+              src={first}
+              alt="Binti Dekz"
             />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Brooklyn Simmons</p>
-            <p className="mt-1 text-base leading-tight text-gray-600">Product Designer</p>
-          </div>
-
-          <div className="hidden lg:block"></div>
-
-          <div>
-            <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-6.jpg"
-              alt="Jerome Bell"
-            />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Jerome Bell</p>
-            <p className="mt-1 text-base leading-tight text-gray-600">Customer Success</p>
-          </div>
-
-          <div className="hidden lg:block"></div>
-
-          <div>
-            <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-7.jpg"
-              alt="Dianne Russell"
-            />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Dianne Russell</p>
-            <p className="mt-1 text-base leading-tight text-gray-600">Front-end Developer</p>
-          </div>
-
-          <div className="hidden lg:block"></div>
-
-          <div>
-            <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-8.jpg"
-              alt="Kristin Watson"
-            />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Kristin Watson</p>
-            <p className="mt-1 text-base leading-tight text-gray-600">H.R</p>
-          </div>
-
-          <div className="hidden lg:block"></div>
-
-          <div>
-            <img
-              className="object-cover mx-auto rounded-lg w-28 h-28"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/team/3/team-avatar-9.jpg"
-              alt="Eleanor Pena"
-            />
-            <p className="mt-8 text-lg font-semibold leading-tight text-black">Eleanor Pena</p>
-            <p className="mt-1 text-base leading-tight text-gray-600">UI Designer</p>
+            <p className="mt-8 text-lg font-semibold leading-tight text-black">Binti Dekz</p>
+            <p className="mt-1 text-base leading-tight text-gray-600">Quality Assurance (QA) Engineer</p>
           </div>
         </div>
       </div>

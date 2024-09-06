@@ -32,7 +32,7 @@ const data = {
   ],
 };
 
-function Mission() {
+const  Mission  = () =>{
   const [coreValuesExpanded, setCoreValuesExpanded] = useState({});
   const [knowMoreExpanded, setKnowMoreExpanded] = useState({});
 

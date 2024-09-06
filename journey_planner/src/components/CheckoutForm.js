@@ -143,6 +143,19 @@ const CheckoutForm = () => {
                     />
                   </label>
                 </div>
+
+                {/* New payment method via phone number */}
+                <div className="flex items-center">
+                  <input
+                    type="radio"
+                    className="w-5 h-5 cursor-pointer"
+                    id="phonePayment"
+                  />
+                  <label htmlFor="phonePayment" className="ml-4 cursor-pointer">
+                    <span className="text-gray-800 font-medium">Send Money (Phone)</span>
+                    <p className="text-sm text-gray-600">Send to: 0796718828</p>
+                  </label>
+                </div>
               </div>
 
               <div className="grid sm:grid-cols-4 gap-4 mt-4">
