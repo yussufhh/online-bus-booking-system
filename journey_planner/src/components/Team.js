@@ -3,6 +3,7 @@ import first from './images/member1.png';
 import second from './images/member2.png';
 import third from './images/member3.png';
 import fourth from './images/member4.png';
+import fifth from './images/member5.png';
 
 const Team = () => {
   return (
@@ -69,7 +70,7 @@ const Team = () => {
           <div>
             <img
               className="object-cover mx-auto rounded-lg w-28 h-28 transform transition duration-500 ease-in-out hover:scale-110 hover:rotate-3"
-              src={first}
+              src={fifth}
               alt="Binti Dekz"
             />
             <p className="mt-8 text-lg font-semibold leading-tight text-black">Binti Dekz</p>

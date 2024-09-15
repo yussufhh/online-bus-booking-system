@@ -198,6 +198,31 @@ const CheckoutForm = () => {
               Pay now
             </button>
           </div>
+
+          {/* Download ticket section */}
+          <div className="flex justify-center items-center mt-8">
+            <button
+              type="button"
+              className="flex items-center text-blue-600 hover:text-blue-700"
+              onClick={() => alert('Downloading ticket...')}
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="2"
+                stroke="currentColor"
+                className="w-6 h-6 mr-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4 12v4c0 1.104.896 2 2 2h12c1.104 0 2-.896 2-2v-4m-5 3l-3 3m0 0l-3-3m3 3V4"
+                />
+              </svg>
+              Download your ticket
+            </button>
+          </div>
         </div>
       </div>
     </div>
